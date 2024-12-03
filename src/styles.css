@@ -8,6 +8,11 @@ body {
   margin: 0 auto;
 }
 
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
     url("../images/benirras-san-miguel.jpeg");
@@ -56,7 +61,25 @@ header a {
   background: white;
 }
 
-@media (max-width: 900px) {
+footer {
+  color: white;
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.8),
+      rgba(39, 32, 68, 0.95)
+    ),
+    url("../images/32418DC6-2DF1-40D7-BFF2-3D1707E86668_1_105_c.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+@media (max-width: 960px) {
   header {
     padding: 60px 0;
   }
