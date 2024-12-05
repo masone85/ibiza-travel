@@ -2,6 +2,37 @@ body {
   font-family: "poppins", sans-serif;
   background-color: #272044;
 }
+main {
+  background-color: white;
+}
+
+main h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  letter-spacing: 5px;
+  color: #272044;
+  opacity: 0.3;
+  text-transform: uppercase;
+}
+
+main h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  color: #272044;
+  margin: 0;
+}
+
+main p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #272044;
+  opacity: 0.7;
+}
 
 .container {
   max-width: 1400px;
@@ -14,9 +45,14 @@ body {
   grid-gap: 54px;
 }
 
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+}
+
 section {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 100px 0;
 }
 
 header {
@@ -67,6 +103,10 @@ header a {
   background: white;
 }
 
+.sunset-at-benirras-beach {
+  width: 30px;
+}
+
 footer {
   color: white;
   background-image: linear-gradient(
@@ -76,7 +116,6 @@ footer {
     url("../images/32418DC6-2DF1-40D7-BFF2-3D1707E86668_1_105_c.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 100px 0;
 }
 
 footer h3 {
