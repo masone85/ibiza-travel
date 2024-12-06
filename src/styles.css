@@ -41,12 +41,16 @@ main p {
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr;
+
   grid-gap: 54px;
 }
 
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
+}
+
+.grid-1fr-2fr-2fr {
+  grid-template-columns: 1fr 2fr 2fr;
 }
 
 section {
@@ -101,10 +105,6 @@ header a {
   padding: 15px 30px;
   border-radius: 8px;
   background: white;
-}
-
-.sunset-at-benirras-beach {
-  width: 30px;
 }
 
 footer {
