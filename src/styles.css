@@ -25,6 +25,20 @@ main h3 {
   margin: 0;
 }
 
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #272044;
+}
+
+main h5 {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #272044;
+}
+
 main p {
   font-style: normal;
   font-weight: 400;
@@ -48,8 +62,16 @@ main p {
   grid-template-columns: 1fr 1fr;
 }
 
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .grid-3-columns-with-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
+}
+
+.card {
+  background: white;
 }
 
 .img-responsive {
@@ -58,6 +80,19 @@ main p {
 
 .text-center {
   text-align: center;
+}
+
+.btn {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: #462cb3;
 }
 
 section {
