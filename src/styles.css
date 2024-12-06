@@ -52,6 +52,10 @@ main p {
   grid-template-columns: 1fr 2fr 2fr;
 }
 
+.img-responsive {
+  max-width: 100%;
+}
+
 section {
   max-width: 1200px;
   margin: 0 auto;
