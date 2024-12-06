@@ -169,9 +169,16 @@ footer a {
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 30px;
+    padding: 20px;
   }
 
   section {
     padding: 30px 0;
+  }
+
+  .img-responsive {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
   }
 }
