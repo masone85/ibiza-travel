@@ -56,12 +56,19 @@ main p {
   max-width: 100%;
 }
 
-section {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 100px 0;
+.text-center {
+  text-align: center;
 }
 
+section {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+section.secondary {
+  background: #f8f8f8;
+}
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
     url("../images/benirras-san-miguel.jpeg");
