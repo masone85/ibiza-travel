@@ -236,6 +236,13 @@ footer a {
     padding: 30px 0;
   }
 
+  .embed {
+    aspect-ratio: 16 / 9;
+  }
+  .card-header img {
+    display: none;
+  }
+
   .img-responsive {
     max-width: 100%;
     display: block;
